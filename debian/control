@@ -1,0 +1,14 @@
+Source: the-silver-searcher
+Section: utils
+Priority: extra
+Maintainer: Peter Golm <golm.peter@gmail.com>
+Build-Depends: debhelper (>= 8.0.0), automake, pkg-config, libpcre3-dev, zlib1g-dev, liblzma-dev
+Standards-Version: 3.9.4
+Homepage: http://geoff.greer.fm/2011/12/27/the-silver-searcher-better-than-ack/
+Vcs-Git: git://github.com/ggreer/the_silver_searcher.git
+Vcs-Browser: https://github.com/ggreer/the_silver_searcher
+
+Package: the-silver-searcher
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: A code searching tool similar to ack, with a focus on speed.

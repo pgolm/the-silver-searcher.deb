@@ -1,0 +1,10 @@
+--- a/build.sh
++++ b/build.sh
+@@ -14,6 +14,4 @@
+ aclocal $AC_SEARCH_OPTS && \
+ autoconf && \
+ autoheader && \
+-automake --add-missing && \
+-./configure && \
+-make
++automake --add-missing
