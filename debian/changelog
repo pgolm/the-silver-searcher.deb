@@ -1,3 +1,9 @@
+the-silver-searcher (0.14.git20130606-1) raring; urgency=low
+
+  * Build HEAD 2f3f78453f0ee61da87a5fccbee90bddaea44dd9 
+
+ -- Peter Golm <golm.peter@gmail.com>  Fri, 21 Jun 2013 11:51:14 +0200
+
 the-silver-searcher (0.14-1) raring; urgency=low
 
   * Initial release 
