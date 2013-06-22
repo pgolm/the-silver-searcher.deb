@@ -1,3 +1,9 @@
+the-silver-searcher (0.14-2) raring; urgency=low
+
+  * fix Long Description
+
+ -- Peter Golm <golm.peter@gmail.com>  Thu, 22 Jun 2013 23:52:37 +0200
+
 the-silver-searcher (0.14-1) raring; urgency=low
 
   * Initial release 
