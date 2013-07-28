@@ -11,3 +11,9 @@ sudo add-apt-repository ppa:pgolm/the-silver-searcher
 sudo apt-get update
 sudo apt-get install the-silver-searcher
 ```
+
+## Build Package
+
+```bash
+git buildpackage -S --git-upstream-tree=FETCH_HEAD -i.git     
+```
